@@ -1,3 +1,16 @@
+.cLightBlue {
+  background-color: lightblue;
+}
+.cGreen {
+  background-color: lightgreen;
+}
+.cYellow {
+  background-color: yellow;
+}
+.cPink {
+  background-color: pink;
+}
+
 /*-- Feel free to remove these styles or customise in your own stylesheet 👍*/
 .attribution {
   font-size: 11px;
