@@ -21,6 +21,35 @@ Font*/
   --fontFraunces: 'Fraunces', serif;
   --fSize: 18px;
 }
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--textWidth);
+  /*min-width: var(--minTextWidth2);
+  height: var(--listHeight);
+  min-height: var(--minListHeight);*/
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--fontBarlow);
+  font-size: var(--fSize);
+}
 h1 {
   font-family: var(--fontFraunces);
   font-size: var(--fSize);
