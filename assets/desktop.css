@@ -110,6 +110,11 @@ ul {
   grid-template-columns: 1fr 1fr;
   grid-gap: 0;
 }
+#Services {
+  height: var(--squareHeight);
+  width: 100vw;
+  display: flex;
+}
 .square {
   height: var(--squareHeight);
   width: var(--squareWidth);
