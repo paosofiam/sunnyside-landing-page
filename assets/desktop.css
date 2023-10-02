@@ -107,6 +107,8 @@ ul {
   height: var(--aboutHeight);
   width: 100vw;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
 }
 .square {
   height: var(--squareHeight);
