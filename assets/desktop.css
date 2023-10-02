@@ -35,8 +35,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  /*height: 100vh;
+  width: 100vw;*/
 }
 nav {
   display: flex;
@@ -62,19 +62,17 @@ nav {
   height: var(--buttonHeight);
   width: var(--buttonWidth);
   border-radius: var(--buttonRadius);
-  /*text-align: center;
-  align-content: center;*/
   font-family: var(--fontFraunces);
   font-size: var(--fSize);
   font: 700;
   align-items: center;
   justify-content: center;
 }
-.Orange {
+/*.Orange {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  /*position: relative;
+  position: relative;
   top: 0;
   z-index: 1;*/
 }
