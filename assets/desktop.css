@@ -20,6 +20,9 @@ Font*/
   --fontBarlow: 'Barlow', sans-serif;
   --fontFraunces: 'Fraunces', serif;
   --fSize: 18px;
+  /*dimensions*/
+  --buttonHeight: calc(var(--fSize) * 3);
+  --buttonRadius: calc(var(--buttonHeight) / 2);
 }
 body {
   padding: 0;
@@ -32,9 +35,22 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-a {
+.headerSection {
   color: var(--White);
+  text-decoration: none;
 }
+.headerContact {
+  background-color: var(--White);
+  color: var(--vdDesaturatedBlue);
+  text-decoration: none;
+  font-size: var(--fontFraunces);
+  height: var(--buttonHeight);
+  width: 100px;
+  border-radius: var(--buttonRadius);
+  text-align: center;
+  align-content: center;
+}
+
 ul {
   display: flex;
   flex-direction: row;
