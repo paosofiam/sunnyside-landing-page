@@ -83,6 +83,10 @@ nav {
   width: 50px;
   z-index: 2;
 }
+#weAre {
+  position: relative;
+  top: 100px;
+}
 
 ul {
   display: flex;
