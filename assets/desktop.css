@@ -43,7 +43,6 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   position: relative;
   top: 0;
   z-index: 1;
@@ -101,6 +100,9 @@ ul {
 h1 {
   font-family: var(--fontFraunces);
   font-size: var(--fSize);
+}
+figure {
+  margin: 0;
 }
 
 .cLightBlue {
