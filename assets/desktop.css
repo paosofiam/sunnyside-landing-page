@@ -23,32 +23,65 @@ Font*/
   /*dimensions*/
   --buttonHeight: calc(var(--fSize) * 3);
   --buttonRadius: calc(var(--buttonHeight) / 2);
+  --buttonWidth: 145px;
 }
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
 }
 .headerSection {
   color: var(--White);
   text-decoration: none;
+  font-family: var(--fontBarlow);
+  font-size: var(--fSize);
 }
 .headerContact {
+  display: flex;
   background-color: var(--White);
   color: var(--vdDesaturatedBlue);
   text-decoration: none;
-  font-size: var(--fontFraunces);
   height: var(--buttonHeight);
-  width: 100px;
+  width: var(--buttonWidth);
   border-radius: var(--buttonRadius);
-  text-align: center;
-  align-content: center;
+  /*text-align: center;
+  align-content: center;*/
+  font-family: var(--fontFraunces);
+  font-size: var(--fSize);
+  font: 700;
+  align-items: center;
+  justify-content: center;
+}
+#Orange {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  top: 0;
+  z-index: 0;
+}
+#Arrow {
+  height: 200px;
+  width: 50px;
+  z-index: 1;
 }
 
 ul {
@@ -63,8 +96,6 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: var(--fontBarlow);
-  font-size: var(--fSize);
 }
 h1 {
   font-family: var(--fontFraunces);
@@ -72,7 +103,7 @@ h1 {
 }
 
 .cLightBlue {
-  background-color: lightblue;
+  background-color: var(--darkBlue);
 }
 .cGreen {
   background-color: lightgreen;
