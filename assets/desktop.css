@@ -24,6 +24,9 @@ Font*/
   --buttonHeight: calc(var(--fSize) * 3);
   --buttonRadius: calc(var(--buttonHeight) / 2);
   --buttonWidth: 145px;
+  --squareHeight: calc(100vh * (2 / 3));
+  --aboutHeight: calc(var(--squareHeight) * 2);
+  --squareWidth: 50vw;
 }
 body {
   padding: 0;
@@ -99,6 +102,17 @@ ul {
   padding: 0;
   list-style: none;
 }
+
+#About {
+  height: var(--aboutHeight);
+  width: 100vw;
+  display: grid;
+}
+.square {
+  height: var(--squareHeight);
+  width: var(--squareWidth);
+}
+
 h1 {
   font-family: var(--fontFraunces);
   font-size: var(--fSize);
