@@ -159,6 +159,9 @@ ul {
   height: 100%;
   width: auto;
 }
+p {
+  text-wrap: wrap;
+}
 
 h1 {
   font-family: var(--fontFraunces);
