@@ -142,7 +142,7 @@ ul {
 }
 .square {
   height: var(--squareHeight);
-  width: 50%;
+  width: 100%;
   min-width: var(--squareHeight);
   overflow: hidden;
 }
