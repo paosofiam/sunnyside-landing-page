@@ -54,8 +54,8 @@ main {
   overflow: hidden;
 }
 #Orange {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
   margin: 0;
   position: absolute;
   bottom: 0;
