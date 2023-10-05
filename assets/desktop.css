@@ -156,8 +156,8 @@ ul {
   overflow: hidden;
 }
 .imageL {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 p {
   text-wrap: wrap;
