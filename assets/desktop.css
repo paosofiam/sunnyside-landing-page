@@ -118,6 +118,8 @@ ul {
 .square {
   height: var(--squareHeight);
   width: var(--squareWidth);
+  min-width: var(--squareHeight);
+  overflow: hidden;
 }
 
 h1 {
