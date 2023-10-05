@@ -43,7 +43,7 @@ main {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 #mainFig {
   display: inline-block;
@@ -64,7 +64,6 @@ main {
   transform: translate(-50%, 0);
   background-color: blue;
 }
-
 nav {
   display: flex;
   flex-direction: row;
@@ -72,7 +71,7 @@ nav {
   align-items: center;
   position: absolute;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   width: 100%;
 }
 .headerSection {
@@ -96,15 +95,22 @@ nav {
   justify-content: center;
 }
 
-/*#Arrow {
-  height: 200px;
-  width: 50px;
+#Arrow {
+  position: absolute;
+  bottom: 0;
+  /*height: auto;
+  width: 50px;*/
   z-index: 2;
 }
 #weAre {
   position: relative;
-  top: 100px;
-}*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: var(--White);
+}
 
 ul {
   display: flex;
