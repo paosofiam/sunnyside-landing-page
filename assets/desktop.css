@@ -144,6 +144,21 @@ ul {
   min-width: var(--squareHeight);
   overflow: hidden;
 }
+.textC {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.imageC {
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+}
+.imageL {
+  height: 100%;
+  width: auto;
+}
 
 h1 {
   font-family: var(--fontFraunces);
