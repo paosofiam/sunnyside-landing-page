@@ -140,26 +140,31 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.square {
-  height: var(--squareHeight);
-  width: 100%;
-  min-width: var(--squareHeight);
-  overflow: hidden;
-}
 .textC {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  height: var(--squareHeight);
+  width: 100%;
+  min-width: var(--squareHeight);
+  overflow: hidden;
 }
 .imageC {
   display: inline-block;
   text-align: center;
+  height: var(--squareHeight);
+  width: 100%;
+  min-width: var(--squareHeight);
   overflow: hidden;
 }
 .imageL {
   height: auto;
   width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 p {
   text-wrap: wrap;
