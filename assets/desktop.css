@@ -137,10 +137,12 @@ ul {
   height: var(--squareHeight);
   width: 100vw;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .square {
   height: var(--squareHeight);
-  width: var(--squareWidth);
+  width: 50%;
   min-width: var(--squareHeight);
   overflow: hidden;
 }
