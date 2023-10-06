@@ -248,11 +248,19 @@ figure {
   align-items: center;
   background-color: var(--darkModCyan);
 }
+#footerLogo{
+  fill: var(--darkDesCyan);
+}
 .footerLink {
   color: var(--darkDesCyan);
   text-decoration: none;
   font-family: var(--fontBarlow);
   font-size: var(--fSize);
+  fill: var(--darkDesCyan);
+}
+.footerLink:hover{
+  color: var(--White);
+  fill: var(--White);
 }
 /*-- Feel free to remove these styles or customise in your own stylesheet 👍*/
 #attribution {
