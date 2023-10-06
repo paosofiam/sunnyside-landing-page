@@ -221,9 +221,6 @@ figure {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0;
-  /*display: flex;
-  flex-direction: row;
-  align-items: center;*/
   overflow: hidden;
 }
 .galeryIMG {
@@ -243,12 +240,17 @@ figure {
 .cPink {
   background-color: pink;
 }
-
+/*footer*/
+#Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 /*-- Feel free to remove these styles or customise in your own stylesheet 👍*/
-.attribution {
+#attribution {
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
+#attribution a {
   color: hsl(228, 45%, 44%);
 }
