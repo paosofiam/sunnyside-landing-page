@@ -223,7 +223,7 @@ figure {
   grid-gap: 0;
 }
 .galeryIMG {
-  width: 25%;
+  width: 100%;
   height: auto;
 }
 
