@@ -222,8 +222,9 @@ figure {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0;
 }
-.galeryIMG{
-  
+.galeryIMG {
+  width: 25%;
+  height: auto;
 }
 
 .cLightBlue {
