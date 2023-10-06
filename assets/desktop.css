@@ -189,6 +189,7 @@ ul {
 .learnMore {
   font-family: var(--fontFraunces);
   color: var(--vdDesaturatedBlue);
+  margin: 56px;
   text-decoration-thickness: 5px;
 }
 .yellowLink {
