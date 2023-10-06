@@ -248,9 +248,7 @@ figure {
   align-items: center;
   background-color: var(--darkModCyan);
 }
-#footerLogo{
-  fill: var(--darkDesCyan);
-}
+
 .footerLink {
   color: var(--darkDesCyan);
   text-decoration: none;
