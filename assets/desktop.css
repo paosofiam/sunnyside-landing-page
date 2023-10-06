@@ -183,6 +183,13 @@ ul {
   text-decoration-color: pink;
 }
 
+.servicesText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 h1 {
   font-family: var(--fontFraunces);
   font-size: var(--fSize);
