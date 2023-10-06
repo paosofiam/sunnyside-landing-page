@@ -171,12 +171,15 @@ ul {
 }
 .learnMore {
   font-family: var(--fontFraunces);
+  color: var(--darkDesCyan);
 }
 .yellowLink {
   text-decoration-color: yellow;
+  text-decoration-thickness: 5px;
 }
 .pinkLink {
-  text-decoration-color: yellow;
+  text-decoration-color: pink;
+  text-decoration-thickness: 5px;
 }
 
 h1 {
