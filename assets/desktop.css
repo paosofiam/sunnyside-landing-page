@@ -218,12 +218,13 @@ figure {
 
 #galery {
   width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
 }
 .galeryIMG {
-  width: 100%;
+  width: 25%;
   height: auto;
 }
 
