@@ -168,7 +168,7 @@ ul {
 }
 .aboutText {
   font-family: var(--fontBarlow);
-  color: var(--vdGrayishBlue);
+  color: var(--dGrayishBlue);
   text-wrap: wrap;
 }
 .learnMore {
