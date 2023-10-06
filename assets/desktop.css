@@ -164,7 +164,7 @@ ul {
 }
 .aboutTitle {
   font-family: var(--fontFraunces);
-  color: var(--darkDesCyan);
+  color: var(--vdDesaturatedBlue);
 }
 .aboutText {
   font-family: var(--fontBarlow);
@@ -173,7 +173,7 @@ ul {
 }
 .learnMore {
   font-family: var(--fontFraunces);
-  color: var(--darkDesCyan);
+  color: var(--vdDesaturatedBlue);
   text-decoration-thickness: 5px;
 }
 .yellowLink {
