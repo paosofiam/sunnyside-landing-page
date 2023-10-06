@@ -248,6 +248,11 @@ figure {
   justify-content: center;
   align-items: center;
 }
+.footerLink{
+  font-family: var(--fontBarlow;
+  color: var(--darkDesCyan);
+  text-decoration: none;
+}
 /*-- Feel free to remove these styles or customise in your own stylesheet 👍*/
 #attribution {
   font-size: 11px;
