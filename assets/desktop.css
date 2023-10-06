@@ -245,6 +245,7 @@ figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 /*-- Feel free to remove these styles or customise in your own stylesheet 👍*/
 #attribution {
