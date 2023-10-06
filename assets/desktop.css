@@ -151,6 +151,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--White);
 }
 .imageC {
   display: inline-block;
@@ -159,10 +160,23 @@ ul {
 }
 .imageL {
   height: auto;
-  width: 50%;
+  width: 100%;
 }
-p {
+.aboutTitle {
+  font-family: var(--fontFraunces);
+}
+.aboutText {
+  font-family: var(--fontBarlow);
   text-wrap: wrap;
+}
+.learnMore {
+  font-family: var(--fontFraunces);
+}
+.yellowLink {
+  text-decoration-color: yellow;
+}
+.pinkLink {
+  text-decoration-color: yellow;
 }
 
 h1 {
