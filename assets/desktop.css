@@ -164,9 +164,11 @@ ul {
 }
 .aboutTitle {
   font-family: var(--fontFraunces);
+  color: var(--darkDesCyan);
 }
 .aboutText {
   font-family: var(--fontBarlow);
+  color: var(--vdGrayishBlue);
   text-wrap: wrap;
 }
 .learnMore {
