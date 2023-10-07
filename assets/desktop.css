@@ -248,15 +248,15 @@ figure {
   align-items: center;
   background-color: var(--darkModCyan);
 }
-
-.footerLink path {
+.footerLink, .footerLink path {
   color: var(--darkDesCyan);
   text-decoration: none;
   font-family: var(--fontBarlow);
   font-size: var(--fSize);
   fill: var(--darkDesCyan);
 }
-.footerLink:hover path {
+
+.footerLink:hover, .footerLink:hover path {
   color: var(--White);
   fill: var(--White);
 }
