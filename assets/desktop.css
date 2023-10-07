@@ -246,7 +246,7 @@ figure {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--darkModCyan);
+  /*background-color: var(--darkModCyan);*/
 }
 .footerLink, .footerLink path {
   color: var(--darkDesCyan);
