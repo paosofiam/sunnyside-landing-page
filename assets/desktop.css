@@ -7,7 +7,7 @@
   --Yellow: hsl(51, 100%, 49%);
   --darkDesCyan: hsl(167, 40%, 34%); /*(graphic design text)*/
   --darkBlue: hsl(198, 62%, 26%); /*(photography text)*/
-  --darkModCyan: hsla(168, 75%, 41%, .45); /*(footer)*/
+  --darkModCyan: hsla(168, 70%, 41%, .5); /*(footer)*/
   /*Neutral*/
   --vdDesaturatedBlue: hsl(212, 27%, 19%);
   --vdGrayishBlue: hsl(213, 9%, 39%);
@@ -246,7 +246,7 @@ figure {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: space-evenly;
+  align-items: center;
   /*background-color: var(--darkModCyan);*/
 }
 .footerLink, .footerLink path {
