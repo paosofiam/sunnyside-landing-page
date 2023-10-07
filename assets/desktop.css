@@ -242,7 +242,7 @@ figure {
 /*footer*/
 #Contact {
   width: 100vw;
-  height: 40vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
