@@ -7,7 +7,7 @@
   --Yellow: hsl(51, 100%, 49%);
   --darkDesCyan: hsl(167, 40%, 24%); /*(graphic design text)*/
   --darkBlue: hsl(198, 62%, 26%); /*(photography text)*/
-  --darkModCyan: hsla(168, 80%, 41%, 1); /*(footer)*/
+  --darkModCyan: hsla(168, 80%, 41%, .6); /*(footer)*/
   /*Neutral*/
   --vdDesaturatedBlue: hsl(212, 27%, 19%);
   --vdGrayishBlue: hsl(213, 9%, 39%);
