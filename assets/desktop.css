@@ -247,8 +247,13 @@ figure {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  /*background-color: var(--darkModCyan);*/
 }
+
+#footerLogo{
+  width: 300px;
+  height: auto;
+}
+
 .footerLink, .footerLink path {
   color: var(--darkDesCyan);
   text-decoration: none;
@@ -256,7 +261,6 @@ figure {
   font-size: var(--fSize);
   fill: var(--darkDesCyan);
 }
-
 .footerLink:hover, .footerLink:hover path {
   color: var(--White);
   fill: var(--White);
