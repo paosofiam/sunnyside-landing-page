@@ -249,7 +249,7 @@ figure {
   align-items: center;
 }
 
-#footerLogo{
+#footerLogo path{
   width: 300px;
   height: auto;
 }
