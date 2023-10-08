@@ -250,6 +250,7 @@ figure {
 }
 
 #footerLogo path{
+  /*width="124" height="24"*/
   width: 300px;
   height: auto;
 }
