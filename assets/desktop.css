@@ -249,11 +249,9 @@ figure {
   align-items: center;
 }
 
-/*#footerLogo {
-  width="124" height="24"
-  width: 300px;
-  height: auto;
-}*/
+#footerLogo {
+  viewBox: 0 0 100 100
+}
 
 .footerLink, .footerLink path {
   color: var(--darkDesCyan);
