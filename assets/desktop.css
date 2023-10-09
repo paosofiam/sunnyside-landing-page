@@ -249,6 +249,13 @@ figure {
   justify-content: center;
   align-items: center;
 }
+#testimonials{
+  display: flex;
+  width: 80%;
+}
+.stories{
+  width: 30%;
+}
 
 h2{
   margin-bottom: 5%;
@@ -256,9 +263,7 @@ h2{
   font-family: var(--fontFraunces);
   color: var(--dGrayishBlue);
 }
-#testimonials{
-  display: flex;
-}
+
 
 .profilePic{
 
