@@ -252,7 +252,7 @@ figure {
 #testimonials{
   display: flex;
   justify-content: space-between;
-  width: 72.5%;
+  width: 73%;
 }
 .stories{
   width: 30%;
