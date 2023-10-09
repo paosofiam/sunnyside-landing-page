@@ -258,10 +258,11 @@ figure {
 
 #footerLogo {
   height: 36px;
-  width: 372px;
+  width: 190px;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 #footerSections{
   width: 20%;
