@@ -244,8 +244,14 @@ figure {
   width: 100vw;
   height: 50vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#icons{
+  height: 60%;
+  display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
