@@ -256,18 +256,22 @@ figure {
   align-items: center;
 }
 
+#footerLogo {
+  height: 36px;
+  width: 372px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #footerSections{
   width: 20%;
   justify-content: space-between;
 }
 #socialNetwork{
-  width: 12.5%;
+  margin-top: 10%;
+  width: 12%;
   justify-content: space-between;
 }
-
-/*#footerLogo {
-  viewBox: 0 0 200 50;
-}*/
 
 .footerLink, .footerLink path {
   color: var(--darkDesCyan);
