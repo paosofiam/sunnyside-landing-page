@@ -239,6 +239,37 @@ figure {
 .cPink {
   background-color: pink;
 }
+/*Prijects*/
+#Projects{
+  background-color: var(--White);
+  height: 100vh;
+  width: 100vW;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  margin-bottom: 5%;
+  padding: 0;
+  font-family: var(--fontFraunces);
+  color: var(--dGrayishBlue);
+}
+#testimonials{
+  display: flex;
+}
+
+.profilePic{
+
+}
+.tName{
+
+}
+.tPosition{
+
+}
+
+
 /*footer*/
 #Contact {
   width: 100vw;
@@ -256,14 +287,6 @@ figure {
   align-items: center;
 }
 
-/*#footerLogo {
-  height: 36px;
-  width: 190px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}*/
 #footerSections{
   width: 20%;
   justify-content: space-between;
