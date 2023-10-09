@@ -255,6 +255,15 @@ figure {
   align-items: center;
 }
 
+#footerSections{
+  width: 20%;
+  justify-content: space-between;
+}
+#socialNetwork{
+  width: calc((100%)/7);
+  justify-content: space-between;
+}
+
 /*#footerLogo {
   viewBox: 0 0 200 50;
 }*/
