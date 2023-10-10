@@ -286,10 +286,14 @@ figure {
   margin: 0;
   padding: 0;
   font-family: var(--fontFraunces);
-  color: var(--dGrayishBlue);
+  color: var(--vdDesaturatedBlue);
 }
 .tPosition{
-
+  margin: 0;
+  padding: 0;
+  font-family: var(--fontBarlow);
+  color: var(--dGrayishBlue);
+  font-size: 18px;
 }
 
 h2{
