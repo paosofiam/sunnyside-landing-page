@@ -260,6 +260,9 @@ figure {
   align-items: center;
   width: 30%;
 }
+.figCaptionS{
+  display: inherit;
+}
 
 h2{
   margin-bottom: 5%;
