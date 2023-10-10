@@ -279,19 +279,7 @@ figure {
   font-family: var(--fontBarlow);
   color: var(--dGrayishBlue);
   text-align: center;
-  font-size: 12px;
-}
-
-h2{
-  margin-bottom: 5%;
-  padding: 0;
-  font-family: var(--fontFraunces);
-  color: var(--dGrayishBlue);
-}
-
-
-.profilePic{
-
+  font-size: 18px;
 }
 .tName{
 
@@ -300,6 +288,12 @@ h2{
 
 }
 
+h2{
+  margin-bottom: 5%;
+  padding: 0;
+  font-family: var(--fontFraunces);
+  color: var(--dGrayishBlue);
+}
 
 /*footer*/
 #Contact {
