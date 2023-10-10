@@ -255,6 +255,9 @@ figure {
   width: 74%;
 }
 .stories{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 30%;
 }
 
