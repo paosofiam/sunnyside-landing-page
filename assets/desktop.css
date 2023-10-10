@@ -279,6 +279,7 @@ figure {
   font-family: var(--fontBarlow);
   color: var(--dGrayishBlue);
   text-align: center;
+  font-size: 12px;
 }
 
 h2{
