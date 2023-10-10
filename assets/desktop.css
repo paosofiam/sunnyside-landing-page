@@ -275,6 +275,7 @@ figure {
   display: inherit;
   flex-direction: inherit;
   align-items: inherit;
+  justify-content: space-between;
   height: 70%;
 }
 
