@@ -262,6 +262,8 @@ figure {
 }
 .figCaptionS{
   display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
 }
 
 h2{
