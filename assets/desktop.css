@@ -44,7 +44,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  /*width: 100vw;*/
   position: relative;
   /*overflow: hidden;*/
 }
@@ -129,14 +129,14 @@ ul {
 
 #About {
   height: var(--aboutHeight);
-  width: 100vw;
+  /*width: 100vw;*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0;
 }
 #Services {
   height: var(--squareHeight);
-  width: 100vw;
+  /*width: 100vw;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,7 +245,7 @@ figure {
 #Projects{
   background-color: var(--White);
   height: 100vh;
-  width: 100vW;
+  /*width: 100vW;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -309,7 +309,7 @@ figure {
 
 /*footer*/
 #Contact {
-  width: 100vw;
+  /*width: 100vw;*/
   height: 50vh;
   display: flex;
   justify-content: center;
