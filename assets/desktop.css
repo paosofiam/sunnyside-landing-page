@@ -273,6 +273,13 @@ figure {
   width: var(--profilePicDiam);
   border-radius: var(--profilePicRad);
 }
+.figCaptionP{
+  margin: 0;
+  padding: 0;
+  font-family: var(--fontBarlow);
+  color: var(--dGrayishBlue);
+  text-align: center;
+}
 
 h2{
   margin-bottom: 5%;
