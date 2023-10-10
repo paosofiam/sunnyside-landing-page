@@ -275,6 +275,7 @@ figure {
   display: inherit;
   flex-direction: inherit;
   align-items: inherit;
+  height: 70%;
 }
 
 .profilePic{
