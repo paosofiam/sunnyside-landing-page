@@ -256,6 +256,13 @@ figure {
   justify-content: space-between;
   width: 74%;
 }
+.clientTestimonials{
+  margin-bottom: 5%;
+  padding: 0;
+  font-family: var(--fontFraunces);
+  color: var(--grayishBlue);
+}
+
 .stories{
   display: flex;
   flex-direction: column;
@@ -294,13 +301,6 @@ figure {
   font-family: var(--fontBarlow);
   color: var(--grayishBlue);
   font-size: 14px;
-}
-
-h2{
-  margin-bottom: 5%;
-  padding: 0;
-  font-family: var(--fontFraunces);
-  color: var(--dGrayishBlue);
 }
 
 /*footer*/
