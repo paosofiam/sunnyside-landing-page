@@ -256,7 +256,9 @@ figure {
   justify-content: space-between;
   width: 74%;
 }
-.clientTestimonials{
+#clientTestimonials{
+  position: relative;
+  top: 30%;
   margin-bottom: 5%;
   padding: 0;
   font-family: var(--fontFraunces);
