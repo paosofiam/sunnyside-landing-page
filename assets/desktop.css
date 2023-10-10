@@ -27,8 +27,8 @@ Font*/
   --squareHeight: calc(100vh * (2 / 3));
   --aboutHeight: calc(var(--squareHeight) * 2);
   --squareWidth: 50vw;
-  --profilePicDiam: 50px;
-  --profilePicRad: calc((--profilePicDiam)/2);
+  --profilePicDiam: 70px;
+  --profilePicRad: calc(var(--profilePicDiam) / 2);
 }
 body {
   padding: 0;
