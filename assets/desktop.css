@@ -257,7 +257,7 @@ figure {
   width: 74%;
 }
 .clientTestimonials{
-  position: relative;
+  position: absolute;
   top: 10%;
   margin-bottom: 5%;
   padding: 0;
