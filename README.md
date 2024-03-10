@@ -7,7 +7,7 @@
 Este es un reto de frontendmentor realizado con HTML, CSS y JavaScript.
 
 Puedes visualizarlo en la siguiente liga:
-[Demo by Paola Mendoza](https://componente-boton.netlify.app/)
+[Demo by Paola Mendoza](https://paosofiam-sunnyside-landing-page.netlify.app/)
 
 ## Welcome! 👋
 
