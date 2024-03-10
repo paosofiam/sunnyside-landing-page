@@ -1,5 +1,5 @@
 <div>
-    <h1>Componente de Formulario</h1>
+    <h1>Reto de Frontend Mentor - Solución a landing page de Sunnyside agency </h1>
 </div>
 
 # Acerca del proyecto
