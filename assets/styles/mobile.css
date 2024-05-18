@@ -1,0 +1,316 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 5%;
+  z-index: 3;
+  width: 87.5%;
+}
+
+#headerList{
+  display: none;
+  width: 0;
+  height: 0;
+  border-top: 70px solid transparent;
+  border-right: 65px solid white;
+  border-bottom: 70px solid white;
+  border-left: 65px solid transparent;
+  overflow: visible;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+#headerListChild{
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  height: 400px;
+  width: 87vw;
+  overflow: hidden;
+  position: relative;
+  top: -35px;
+  left: -87vw;
+  transform: translate(65px, 0);
+}
+
+.headerSection {
+  color: var(--dGrayishBlue);
+  text-decoration: none;
+  font-family: var(--fontBarlow);
+  font-size: 18px;
+}
+.headerContact {
+  display: flex;
+  background-color: var(--Yellow);
+  color: var(--vdDesaturatedBlue);
+  text-decoration: none;
+  height: var(--buttonHeight);
+  width: var(--buttonWidth);
+  border-radius: var(--buttonRadius);
+  font-family: var(--fontFraunces);
+  font-size: var(--fSize);
+  font: 700;
+  align-items: center;
+  justify-content: center;
+}
+.headerContact:hover{
+  background-color: var(--hWhite);
+  color: var(--White);
+} 
+
+#mainFig {
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+#Orange {
+  height: auto;
+  width: 200%;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+  transform: translate(-50%, 0);
+  background-color: aqua;
+}
+
+#weAre {
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-family: var(--fontFraunces);
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 13px;
+  color: var(--White);
+}
+#Arrow {
+  position: absolute;
+  bottom: 30%;
+  z-index: 2;
+}
+/*General*/
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vw;
+  /*max-height: var(--maxSquareHeight);*/
+  width: 100vw;
+  /*min-width: var(--squareHeight);*/
+  overflow: hidden;
+}
+.square2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 83vw;
+  /*max-height: var(--maxSquareHeight);*/
+  width: 100vw;
+  /*min-width: var(--squareHeight);*/
+  overflow: hidden;
+}
+/*About*/
+#About {
+  /*height: var(--aboutHeight);
+  max-height: calc(var(--maxSquareHeight)*2);*/
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 0;
+  overflow: hidden;
+}
+#firstEl{
+  grid-row: 1;
+}
+.aboutDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 67%;
+  height: 75%;
+}
+
+.aboutTitle {
+  font-family: var(--fontFraunces);
+  color: var(--vdDesaturatedBlue);
+  font-weight: 900;
+  font-size: 41px;
+  text-align: center;
+}
+.aboutText {
+  font-family: var(--fontBarlow);
+  color: var(--dGrayishBlue);
+  line-height: 30px;
+  text-wrap: wrap;
+  font-size: 18px;
+  text-align: center;
+}
+
+.learnMore {
+  text-decoration: none;
+  height: var(--textDecoH);
+  border-radius: var(--textDecoRad);
+  overflow: visible;
+}
+.learnMoreP{
+  position: relative;
+  bottom: 13px;
+  margin: 0 8px;
+  font-family: var(--fontFraunces);
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: var(--vdDesaturatedBlue);
+}
+
+/*Services*/
+#Services {
+  /*height: var(--squareHeight);
+  max-height: var(--maxSquareHeight);*/
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  overflow: hidden;
+  position: relative;
+}
+.imgServices{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 0;
+}
+.imageChild2{
+  position: relative;
+  width: 150%;
+  left: 75%;
+}
+
+.figCaptionServ{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  z-index: 2;
+  /*height: 30%;*/
+  width: 72%;
+  margin-bottom: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+.servicesT{
+  font-family: var(--fontFraunces);
+  font-size: 29px;
+  font-weight: 900;
+  margin-bottom: 7%;
+}
+.servicesP{
+  font-family: var(--fontBarlow);
+  font-size: 17px;
+  line-height: 27.5px;
+}
+
+/*Projects*/
+#Projects{
+  background-color: var(--White);
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+#testimonials{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 68%;
+  height: 48%;
+}
+#clientTestimonials{
+  margin-bottom:  %;
+  padding: 0;
+  font-family: var(--fontFraunces);
+  color: var(--grayishBlue);
+  letter-spacing: 5px;
+}
+
+.stories{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+.figCaptionS{
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+  justify-content: space-between;
+  /*height: 60%;*/
+}
+
+.profilePic{
+  height: var(--profilePicDiamMob);
+  width: var(--profilePicDiamMob);
+  border-radius: calc(var(--profilePicDiamMob)/2);
+  margin-bottom: 35px;
+}
+.figCaptionP{
+  margin: 0;
+  padding: 0;
+  font-family: var(--fontBarlow);
+  color: var(--dGrayishBlue);
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
+.tName{
+  margin-top: 15%;
+  padding: 0;
+  font-family: var(--fontFraunces);
+  color: var(--vdDesaturatedBlue);
+  font-weight: 900;
+}
+.tPosition{
+  margin: 0;
+  padding: 0;
+  font-family: var(--fontBarlow);
+  color: var(--grayishBlue);
+  font-size: 15px;
+}
+/*Galery*/
+#galery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  overflow: hidden;
+}
+.galeryIMG {
+  width: 100%;
+  height: auto;
+}
+
+/*-- Feel free to remove these styles or customise in your own stylesheet 👍*/
+#attribution {
+  font-size: 11px;
+  text-align: center;
+}
+#attribution a {
+  color: hsl(228, 45%, 44%);
+}
