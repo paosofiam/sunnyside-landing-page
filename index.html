@@ -12,8 +12,9 @@
       href="assets/images/icons/favicon-32x32.png"
     />
     <link rel="stylesheet" href="assets/styles/config.css">
-    <link rel="stylesheet" href="assets/styles/mobile.css" media="screen and (max-width:720px)">
-    <link rel="stylesheet" href="assets/styles/desktop.css" media="screen and (min-width:720px)">
+    <link rel="stylesheet" href="assets/styles/general.css">
+    <link rel="stylesheet" href="assets/styles/mobile.css" media="screen and (max-width:950px)">
+    <link rel="stylesheet" href="assets/styles/desktop.css" media="screen and (min-width:950px)">
   </head>
   <body>
     <main class="cLightBlue" id="Home">
@@ -24,15 +25,18 @@
     <svg id="hamburger" width="24" height="18" xmlns="http://www.w3.org/2000/svg" onclick="toggleMenu()"><path d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z" fill="#FFF" fill-rule="evenodd"/></svg>
     <div id="headerList" class="shown">
       <ul id="headerListChild">
-        <li><a class="headerSection" href="#About">About</a></li>
-        <li><a class="headerSection" href="#Services">Services</a></li>
-        <li><a class="headerSection" href="#Projects">Projects</a></li>
-        <li class="headerContact" ><a class="headerContact" href="#Contact">CONTACT</a></li>
+        <li><a id="ID1" class="headerSection" href="#About">About</a></li>
+        <li><a id="ID2" class="headerSection" href="#Services">Services</a></li>
+        <li><a id="ID3" class="headerSection" href="#Projects">Projects</a></li>
+        <li id="headerContact" ><a class="headerContact" href="#Contact">CONTACT</a></li>
       </ul>
     </div>
   </nav>
       <figure id="mainFig">
-        <img id="Orange" src="assets/images/desktop/image-header.jpg" alt="Sliced orange with light blue background picture">
+        <picture>
+          <source media="(min-width:950px)" srcset="assets/images/desktop/image-header.jpg">
+          <img id="Orange" src="assets/images/mobile/image-header.jpg" alt="Sliced orange with light blue background picture">
+        </picture>
         <figcaption id="weAre"><h1>WE ARE CREATIVES</h1></figcaption>
       </figure>
       <a id="Arrow" href="#About"><svg alt="Arrow symbol" width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg></a>
@@ -46,10 +50,16 @@
         </div>
       </div>
       <figure id="firstEl" class="imageContain square2 cYellow" >
-        <img class="imageChild" src="assets/images/desktop/image-transform.jpg" alt="Egg with yellow background picture">
+        <picture>
+          <source media="(min-width:950px)" srcset="assets/images/desktop/image-transform.jpg">
+          <img class="imageChild" src="assets/images/mobile/image-transform.jpg" alt="Egg with yellow background picture">
+        </picture>
       </figure>
       <figure class="imageContain square2 cPink">
-        <img class="imageChild3" src="assets/images/desktop/image-stand-out.jpg" alt="Pink cup with pink background picture">
+        <picture>
+          <source media="(min-width:950px)" srcset="assets/images/desktop/image-stand-out.jpg">
+          <img class="imageChild3" src="assets/images/mobile/image-stand-out.jpg" alt="Pink cup with pink background picture">
+        </picture>
       </figure>
         <div class="square">
           <div class="aboutDiv" id="aboutRight">
@@ -61,7 +71,10 @@
     </article>
     <article id="Services">
       <figure class="cGreen square imageContain imgServices" >
-        <img class="imageChild2" src="assets/images/desktop/image-graphic-design.jpg" alt="A couple of cherries with green background picture">
+        <picture>
+          <source media="(min-width:950px)" srcset="assets/images/desktop/image-graphic-design.jpg">
+          <img class="imageChild2" src="assets/images/mobile/image-graphic-design.jpg" alt="A couple of cherries with green background picture">
+        </picture>
         <div class="figCaptionServ">
           <figcaption class="servicesText">
             <h3 class="cGreen2 servicesT">Graphic Design</h3>
@@ -70,7 +83,10 @@
         </div>
       </figure>
       <figure class="cLightBlue3 square imageContain imgServices">
-        <img  class="imageChild2" src="assets/images/desktop/image-photography.jpg" alt="tangerine with light blue background picture">
+        <picture>
+          <source media="(min-width:950px)" srcset="assets/images/desktop/image-photography.jpg">
+          <img  class="imageChild2" src="assets/images/mobile/image-photography.jpg" alt="tangerine with light blue background picture">
+        </picture>
         <div class="figCaptionServ">
           <figcaption class="servicesText">
             <h3 class="cLightBlue2 servicesT">Photography</h3>
@@ -115,10 +131,22 @@
       </div>
     </article>
     <div id="galery">
-      <img class="cLightBlue galeryIMG" src="assets/images/desktop/image-gallery-milkbottles.jpg" alt="Three milk bottles with the sky as background and some clouds hanging out">
-      <img class="cYellow galeryIMG" src="assets/images/desktop/image-gallery-orange.jpg" alt="A little sliced range in a dish over an orange surface">
-      <img class="cLightBlue galeryIMG" src="assets/images/desktop/image-gallery-cone.jpg" alt="An empty ice cream cone with a light blue background">
-      <img class="cPink galeryIMG" src="assets/images/desktop/image-gallery-sugarcubes.jpg" alt="A wall of sugar cubes with a pink background">
+      <picture>
+        <source media="(min-width:950px)" srcset="assets/images/desktop/image-gallery-milkbottles.jpg">
+        <img class="cLightBlue galeryIMG" src="assets/images/mobile/image-gallery-milkbottles.jpg" alt="Three milk bottles with the sky as background and some clouds hanging out">
+      </picture>
+      <picture>
+        <source media="(min-width:950px)" srcset="assets/images/desktop/image-gallery-orange.jpg">
+        <img class="cYellow galeryIMG" src="assets/images/mobile/image-gallery-orange.jpg" alt="A little sliced range in a dish over an orange surface">
+      </picture>
+      <picture>
+        <source media="(min-width:950px)" srcset="assets/images/desktop/image-gallery-cone.jpg">
+        <img class="cLightBlue galeryIMG" src="assets/images/mobile/image-gallery-cone.jpg" alt="An empty ice cream cone with a light blue background">
+      </picture>
+      <picture>
+        <source media="(min-width:950px)" srcset="assets/images/desktop/image-gallery-sugarcubes.jpg">
+        <img class="cPink galeryIMG" src="assets/images/mobile/image-gallery-sugarcubes.jpg" alt="A wall of sugar cubes with a pink background">
+      </picture>
     </div>
     <footer>
       <div class="cGreen" id="Contact">

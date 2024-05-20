@@ -2,26 +2,29 @@
 
 :root {
   /*colors*/
-  /*Primary*/
+    /*Primary*/
   --softRed: hsl(7, 99%, 70%);
   --Yellow: hsl(51, 100%, 49%);
-  --darkDesCyan: hsl(167, 40%, 34%); /*(graphic design text)*/
-  --darkDesCyan2: hsl(167, 40%, 24%); /*graphic design title*/
-  --darkBlue: hsl(198, 62%, 26%); /*(photography text)*/
-  --darkModCyan: hsla(168, 70%, 41%, .5); /*(footer)*/
-  /*learn more links*/
-  --lightSoftRed: hsla(7, 99%, 70%, .3);
-  --lightYellow: hsla(51, 100%, 49%, .3);
-  /*Neutral*/
+  --darkDesCyan: hsl(167, 40%, 34%);
+      /*(graphic design text)*/
+  --darkDesCyan2: hsl(167, 40%, 24%);
+      /*graphic design title*/
+  --darkBlue: hsl(198, 62%, 26%);
+      /*(photography text)*/
+  --darkModCyan: hsla(168, 70%, 41%, .5);
+    /*(footer)*/
+    /*Neutral*/
   --vdDesaturatedBlue: hsl(212, 27%, 19%);
   --vdGrayishBlue: hsl(213, 9%, 39%);
   --dGrayishBlue: hsl(232, 10%, 55%);
   --grayishBlue: hsl(210, 4%, 67%);
   --White: hsl(0, 0%, 100%);
-  --hWhite: hsl(0, 0%, 100%, .15); /*Active elements from header*/
-  /*Typography
-Body Copy
-Font*/
+  --hWhite: hsl(0, 0%, 100%, .15);
+    /*Active elements from header*/
+      /*learn more links*/
+  --lightSoftRed: hsla(7, 99%, 70%, .3);
+  --lightYellow: hsla(51, 100%, 49%, .3);
+  /*Typography Body Copy Font*/
   --fontBarlow: 'Barlow', sans-serif;
   --fontFraunces: 'Fraunces', serif;
   --fSize: 18px;
@@ -58,6 +61,14 @@ main {
   position: relative;
   overflow: hidden;
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
 ul {
   display: flex;
   flex-direction: row;
@@ -65,116 +76,8 @@ ul {
   align-items: center;
   list-style: none;
 }
-figure, p, h1, h2, h3, ul {
+
+picture, img, figure, p, h1, h2, h3, ul {
   margin: 0;
   padding: 0;
-}
-/*General Colors*/
-.cLightBlue {
-    background-color: #3EBFFF;
-  }
-  .cLightBlue3 {
-    background-color: #5FCDFE;
-  }
-  .cLightBlue2 {
-    color: var(--darkBlue);
-  }
-  
-  .cGreen {
-    background-color: var(--darkModCyan);
-  }
-  .cGreen2 {
-    color: var(--darkDesCyan2);
-  }
-  .cGreen3{
-    color: var(--darkDesCyan);
-  }
-  
-  .cYellow {
-    background-color: #FED501;
-  }
-  .cPink {
-    background-color: var(--softRed);
-  }
-
-  .yellowLink {
-    background-color: var(--lightYellow);
-  }
-  .pinkLink {
-    background-color: var(--lightSoftRed);
-  }
-  .yellowLink:hover {
-    background-color: var(--Yellow);
-  }
-  .pinkLink:hover {
-    background-color: var(--softRed);
-  }
-  #hamburger{
-    display: block;
-  }
-/*Text over images*/
-  .imageContain {
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
-  }
-  .imageChild, .imageChild2, .imageChild3 {
-    height: auto;
-    width: 100%;
-    position: absolute;
-    z-index: 0;
-  }
-  .imageChild{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .imageChild2 {
-    top: 0;
-    transform: translate(-50%, 0);
-  }
-  .imageChild3 {
-    bottom: 0%;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
-  /*footer*/
-#Contact {
-  height: 50vh;
-  min-height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#icons{
-  height: 60%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#footerSections{
-  width: 20%;
-  min-width: 375px;
-  justify-content: space-between;
-}
-#socialNetwork{
-  margin-top: 3%;
-  width: 12%;
-  min-width: 200px;
-  justify-content: space-between;
-}
-
-.footerLink, .footerLink path {
-  color: var(--darkDesCyan);
-  text-decoration: none;
-  font-family: var(--fontBarlow);
-  font-size: var(--fSize);
-  fill: var(--darkDesCyan);
-}
-.footerLink:hover, .footerLink:hover path {
-  color: var(--White);
-  fill: var(--White);
 }

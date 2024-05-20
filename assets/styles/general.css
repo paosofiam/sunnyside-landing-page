@@ -1,0 +1,305 @@
+/*General Colors*/
+  /*Backgrounds*/
+    /*Blue*/
+.cLightBlue {background-color: #3EBFFF;}
+.cLightBlue2 {color: var(--darkBlue);}
+.cLightBlue3 {background-color: #5FCDFE;}
+    /*Green*/
+.cGreen {background-color: var(--darkModCyan);}
+.cGreen2 {color: var(--darkDesCyan2);}
+.cGreen3 {color: var(--darkDesCyan);}
+    /*Yellow & Pink*/
+.cYellow {background-color: #FED501;}
+.cPink {background-color: var(--softRed);}
+    /*Links*/
+.yellowLink {background-color: var(--lightYellow);}
+.pinkLink {background-color: var(--lightSoftRed);}
+.yellowLink:hover {background-color: var(--Yellow);}
+.pinkLink:hover {background-color: var(--softRed);}
+/*Text over images*/
+.imageContain {
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+}
+
+.imageChild, .imageChild2, .imageChild3 {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.imageChild {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.imageChild2 {
+    width: 100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+.imageChild3 {
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/*Square sections*/
+.square, .square2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vw;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/*Header*/
+.headerSection {
+    text-decoration: none;
+    font-family: var(--fontBarlow);
+    font-size: 18px;
+}
+#headerContact {
+    display: flex;
+    color: var(--vdDesaturatedBlue);
+    text-decoration: none;
+    height: var(--buttonHeight);
+    width: var(--buttonWidth);
+    border-radius: var(--buttonRadius);
+    font-family: var(--fontFraunces);
+    font-size: var(--fSize);
+    font: 700;
+    align-items: center;
+    justify-content: center;
+}
+#headerContact:hover{
+    background-color: var(--hWhite);
+    color: var(--White);
+}
+/*Main*/
+#mainFig {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+/*Home*/
+#Orange {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    transform: translate(-50%, 0);
+    background-color: aqua;
+}
+#weAre {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-family: var(--fontFraunces);
+    font-weight: 900;
+    letter-spacing: 13px;
+    color: var(--White);
+}
+#Arrow {
+    position: absolute;
+    z-index: 2;
+}
+/*About*/
+#About {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0;
+    overflow: hidden;
+}
+.aboutDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.aboutTitle {
+    font-family: var(--fontFraunces);
+    color: var(--vdDesaturatedBlue);
+    font-weight: 900;
+    font-size: 41px;
+}
+.aboutText {
+    font-family: var(--fontBarlow);
+    color: var(--dGrayishBlue);
+    line-height: 30px;
+    text-wrap: wrap;
+    font-size: 18px;
+}
+
+.learnMore {
+    text-decoration: none;
+    height: var(--textDecoH);
+    border-radius: var(--textDecoRad);
+    overflow: visible;
+}
+.learnMoreP{
+    position: relative;
+    bottom: 13px;
+    margin: 0 8px;
+    font-family: var(--fontFraunces);
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--vdDesaturatedBlue);
+}
+/*Services*/
+#Services {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    overflow: hidden;
+    position: relative;
+}
+.imgServices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.figCaptionServ{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    z-index: 2;
+    margin-bottom: 100px;
+}
+
+.servicesT{
+    font-family: var(--fontFraunces);
+    font-size: 29px;
+    font-weight: 900;
+    margin-bottom: 7%;
+}
+.servicesP{
+    font-family: var(--fontBarlow);
+    font-size: 17px;
+    line-height: 27.5px;
+}
+/*Projects*/
+#Projects{
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#testimonials{
+    display: flex;
+    justify-content: space-between;
+    height: 48%;
+}
+#clientTestimonials{
+    margin-bottom: 6%;
+    padding: 0;
+    font-family: var(--fontFraunces);
+    color: var(--grayishBlue);
+    letter-spacing: 5px;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.figCaptionS{
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    justify-content: space-between;
+}
+.figCaptionP{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontBarlow);
+    color: var(--dGrayishBlue);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+  }
+.tName{
+    margin-top: 15%;
+    padding: 0;
+    font-family: var(--fontFraunces);
+    color: var(--vdDesaturatedBlue);
+    font-weight: 900;
+}
+.tPosition{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontBarlow);
+    color: var(--grayishBlue);
+    font-size: 15px;
+}
+/*Galery*/
+#galery {
+    display: grid;
+    grid-gap: 0;
+    overflow: hidden;
+}
+.galeryIMG {
+    width: 100%;
+    height: 100%;
+}
+/*footer*/
+#Contact {
+  height: 50vh;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icons {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footerSections {
+  width: 20%;
+  min-width: 375px;
+  justify-content: space-between;
+}
+
+#socialNetwork {
+  margin-top: 3%;
+  width: 12%;
+  min-width: 200px;
+  justify-content: space-between;
+}
+
+.footerLink, .footerLink path {
+  color: var(--darkDesCyan);
+  text-decoration: none;
+  font-family: var(--fontBarlow);
+  font-size: var(--fSize);
+  fill: var(--darkDesCyan);
+}
+.footerLink:hover, .footerLink:hover path {
+  color: var(--White);
+  fill: var(--White);
+}
+/*Attrbution - Feel free to remove these styles or customise in your own stylesheet 👍*/
+#attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+#attribution a {
+    color: hsl(228, 45%, 44%);
+}
