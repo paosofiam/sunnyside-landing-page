@@ -7,7 +7,7 @@
 Este es un reto de frontendmentor realizado con HTML, CSS y JavaScript.
 
 Puedes visualizarlo en la siguiente liga:
-[Demo by Paola Mendoza](https://paosofiam-sunnyside-landing-page.netlify.app/)
+[Demo by Paola Mendoza](https://paosofiam.github.io/sunnyside-landing-page/)
 
 También puedes ver el diseño original en la siguiente liga:
 [Frontend Mentor | Sunnyside agency landing page](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef)
